@@ -36,4 +36,5 @@ git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
 # git apply ../config/patches/{0001*,0002*}.patch --directory=feeds/luci
 #
 # ------------------------------- Other ends -------------------------------
-
+sed -i 's/192.168.1.1/192.168.7.8/g' package/base-files/files/bin/config_generate
+sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci-light/Makefile
