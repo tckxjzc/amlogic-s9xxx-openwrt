@@ -12,4 +12,4 @@
 # other
 # rm -rf package/lean/{samba4,luci-app-samba4,luci-app-ttyd}
 echo 'src-git infinityfreedom https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git' >>feeds.conf.default
-echo 'src-git openclash https://github.com/vernesong/OpenClash.git' >>feeds.conf.default
+echo 'src-git openclash https://github.com/vernesong/OpenClash.git^v0.46.086' >>feeds.conf.default
